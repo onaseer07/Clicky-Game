@@ -2,9 +2,10 @@
   "name": "clicky-game",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://onaseer07.github.io/Clicky-Game/",
+  "homepage": "https://onaseer07.github.io/Clicky-Game/clicky-game/",
   "dependencies": {
     "gh-pages": "^1.2.0",
+    "node-deploy": "^0.2.0",
     "prop-types": "^15.6.1",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
@@ -20,4 +21,3 @@
     "eject": "react-scripts eject"
   }
 }
-
