@@ -1,51 +1,51 @@
 [
     {
-      "id": 7,
-      "name": "Thor",
-      "image": "./images/thor.jpg",
-      "clicked": false
-    },
-    {
       "id": 0,
       "name": "Black Panther",
       "image": "./images/BlackPanther.jpg",
-      "clicked": false
+      "clicked": true
     },
     {
       "id": 1,
       "name": "Black Widow",
       "image": "./images/BlackWidow.jpg",
-      "clicked": false
+      "clicked": true
     },
     {
       "id": 2,
       "name": "Captain America",
       "image": "./images/CapAmerica.jpg",
-      "clicked": false
+      "clicked": true
     },
     {
       "id": 3,
       "name": "Hawkeye",
       "image": "./images/Hawkeye.jpg",
-      "clicked": false
+      "clicked": true
     },
     {
       "id": 4,
       "name": "Hulk",
       "image": "./images/Hulk.jpg",
-      "clicked": false
+      "clicked": true
     },
     {
       "id": 5,
       "name": "Iron Man",
       "image": "./images/IronMan.jpg",
-      "clicked": false
+      "clicked": true
     },
     {
       "id": 6,
       "name": "Spiderman",
       "image": "./images/Spiderman.jpg",
-      "clicked": false
+      "clicked": true
+    },
+    {
+      "id": 7,
+      "name": "Thor",
+      "image": "./images/thor.jpg",
+      "clicked": true
     }
 
 
