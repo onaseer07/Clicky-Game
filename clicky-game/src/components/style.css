@@ -1,0 +1,25 @@
+body,html {
+    background: #000;
+    color:#eee;
+}
+.card {
+    border:0;
+    width: 18rem;
+    display: inline-block;
+    box-shadow: 2px 0px 10px #444;
+    cursor: pointer;
+}
+.card:hover {
+    width: 18rem;
+    display: inline-block;
+    box-shadow: 2px 0px 10px #fff;
+    cursor: pointer;
+}
+footer, footer>div {
+    background: darkred;
+    color: #fff;  
+}
+.jumbotron {
+    background: #000;
+    color:#eee;
+}

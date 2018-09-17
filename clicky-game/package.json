@@ -2,15 +2,35 @@
   "name": "clicky-game",
   "version": "0.1.0",
   "private": true,
+<<<<<<< HEAD
   "dependencies": {
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-scripts": "1.1.5"
   },
   "scripts": {
+=======
+  "homepage": "https://onaseer07.github.io/Clicky-Game/",
+  "dependencies": {
+    "gh-pages": "^1.2.0",
+    "node-deploy": "^0.2.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4",
+    "react-transition-group": "^2.3.1"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+>>>>>>> 5fbea50c13f9b3b6f3e53d2ee9970fe0bb38f18a
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 5fbea50c13f9b3b6f3e53d2ee9970fe0bb38f18a
