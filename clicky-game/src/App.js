@@ -23,10 +23,8 @@ class App extends Component{
             }
 
             this.handleClick = this.handleClick.bind(this);
-            // this.renderCards = this.renderCards.bind(this);
+            
         }
-        
-
         
         //handleOnClick:
         handleClick = (i)=> {
@@ -34,7 +32,7 @@ class App extends Component{
             const avenger = this.state.characters;
             console.log(id,name);
 
-            if (avenger[id].clicked) {
+            if (avenger[id].clicked && this.state.score < 8) {
                 this.setState({
                     characters: cupidShuffle(avenger.map((character,index)=>{
                         return(index[id]) ?  {...character, clicked:true} : character
@@ -42,9 +40,19 @@ class App extends Component{
                 });
                 this.setState({score:this.state.score + 1})
                 this.setState({score:this.state.topScore + 1})
-            }   
+            }else {
+                this.setState({characters: cupidShuffle(avenger.map((character,index)=>{
+                    return(index[id]) ?  {...character, clicked:true} : character
+                    }))
+                
+                })
+                this.setState({score:0})
 
-
+                if (this.state.topScore < this.state.score){
+                    this.setState({topScore:this.state.score})
+                }
+                // 
+            }  
         }             
 
     render(){
